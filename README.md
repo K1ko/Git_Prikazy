@@ -66,7 +66,7 @@ git restore --staged .
 Nemusis davat add ., nemusis davat prvo add vsetko a nasledne commit
 Mozes dat kod, ktory add vsetky zmenene subory a hned ich aj commitne s komentarom
 ```commandline
-git coomit -am "komentar"
+git commit -am "komentar"
 # -a --> funguje len pre upravene subory (ktore existovali, a len boli pozmenene)
 ```
 

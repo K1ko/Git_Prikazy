@@ -229,6 +229,12 @@ Existuje merge a rebase
 Merge --> nie je destruktivny, mas stale tvoju main vetvu aj tvoje sekundarne vetvy untouched, nijako sa sekundarna nevymaze, ked je merge-nuta s main vetvou    
 Rebase --> je destruktivny, hlavnu main vetvu nalepi na sekundarnu vetvu s tym, ze bude v main vetva v tej sekundarnej uz existovat a ta sekundarna sa akokeby vytrati, vymaze  
 
+##DISABLE GIT INIT IN YOUR DIRECTORY  
+To disable git init in your directory and all .git things
+```commandline
+rmdir /s .git
+```
+
 ## MIT MARKDOWN .GITIGNORE
 **Pri vyrabani repository na Github-e, license je najlepsie si vybrat MIT License**  
 

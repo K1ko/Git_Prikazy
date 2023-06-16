@@ -216,6 +216,10 @@ git checkout -b <meno_vetvy>
 # 1. git branch <meno_vetvy>
 # 2. git checkout <meno_vetvy>
 ```
+# Commit na špecifický deň
+  ```
+  git commit -m 'Fix UI bug' --date 2023-06-16
+  ```
 
 Ked chces spojit tvoje zmeny v sekundarnej vetve s tvojom hlavnou main vetvou  
 Tak ich potrebujes zlucit 'merge'  
